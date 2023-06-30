@@ -3,8 +3,8 @@ def split_hours_and_minutes(string):
 
 
 def hours_hand(hour: int, minutes: int):
-    base = (hour % 12) * (360 // 12)
-    correction = int((minutes / 60) * (360 // 12))
+    base = (hour % 12) * (360 / 12)
+    correction = int((minutes / 60) * (360 / 12))
     return base + correction
 
 
