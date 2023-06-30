@@ -1,9 +1,13 @@
+# Mutation testing in Python
+## …using _`mutmut`_ library
 
+30.06.2023, lightning talk at PyCon by Piotr Grędowski
 
-## Example mutations
+Repository:
+https://github.com/piotrgredowski/try-mutation-testing
 
-- Integer literals are changed by adding 1. So 0 becomes 1, 5 becomes 6, etc.
-- < is changed to <=
-- break is changed to continue and vice versa
+### Sources
 
-In general the idea is that the mutations should be as subtle as possible. See __init__.py for the full list.
+- https://about.codecov.io/blog/getting-started-with-mutation-testing-in-python-with-mutmut/
+- https://mutmut.readthedocs.io/en/latest/
+- https://opensource.com/article/20/7/mutmut-python

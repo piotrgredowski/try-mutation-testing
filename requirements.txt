@@ -1,0 +1,5 @@
+black
+mutmut
+pytest
+pytest-cov
+ruff
